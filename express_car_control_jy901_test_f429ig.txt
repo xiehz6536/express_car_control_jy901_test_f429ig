@@ -1,0 +1,72 @@
+Configuration	express_car_control_jy901_test_f429ig
+STM32CubeMX 	4.26.1
+Date	12/18/2018
+MCU	STM32F429IGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Encoder Mode	TIM2_CH1	PA5
+TIM2	Encoder Mode	TIM2_CH2	PB3
+TIM3	Encoder Mode	TIM3_CH1	PA6
+TIM3	Encoder Mode	TIM3_CH2	PA7
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM8	PWM Generation CH1	TIM8_CH1	PC6
+TIM8	PWM Generation CH2	TIM8_CH2	PC7
+TIM8	PWM Generation CH3	TIM8_CH3	PC8
+TIM8	PWM Generation CH4	TIM8_CH4	PC9
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PD5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+47	PA3	USART2_RX	
+51	PA5	TIM2_CH1	
+52	PA6	TIM3_CH1	
+53	PA7	TIM3_CH2	
+107	PG3	GPIO_Output	
+115	PC6	TIM8_CH1	
+116	PC7	TIM8_CH2	
+117	PC8	TIM8_CH3	
+118	PC9	TIM8_CH4	
+120	PA9	USART1_TX	
+121	PA10	USART1_RX	
+141	PC12	GPIO_Output	
+144	PD2	GPIO_Output	
+147	PD5	USART2_TX	
+161	PB3	TIM2_CH2	
+164	PB6	I2C1_SCL	
+165	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : express_car_control_jy901_test_f429ig
+Project Folder : H:\Courses\智能机器人实践\程序\express_car_control_jy901_test_f429ig
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.21.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
